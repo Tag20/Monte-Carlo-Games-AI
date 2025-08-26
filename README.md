@@ -60,18 +60,32 @@ Custom Board Rendering – Connect 4
 Monte Carlo Tree Search (MCTS) – AI logic across all games
 
 📂 Project Structure
+
 Monte-Carlo-Games-AI/
+
 │── main.py                # Main launcher menu
+
 │── Mcts_2048.py           # 2048 with MCTS AI (Tkinter GUI)
+
 │── Pac Man.py             # Pac-Man with Monte Carlo Ghosts (Turtle)
+
 │── SnakeGame.py           # Snake with MCTS AI (Pygame)
+
 │── Tic-Tak-Toe-mcts.py    # Tic-Tac-Toe with MCTS AI (Ursina)
+
 │── Connect4.py            # Connect 4 with MCTS AI
+
 
 🎮 Controls
 
 2048: Arrow keys. Press p to enable AI.
+
 Pac-Man: Arrow keys to move Pac-Man. Ghosts use Monte Carlo AI.
+
 Snake: Runs automatically with MCTS planning.
+
 Tic-Tac-Toe: Click squares to place O. AI plays X.
-Connect 4: Click/select a column to drop a piece. AI responds with MCTS move.
+
+Connect 4: Click/select a column to drop a piece.
+
+AI responds with MCTS move.
